@@ -33,7 +33,7 @@ const Navbar = () =>{
   </React.Fragment>
 }
 
- const Data = () =>{
+ const Data = () =>{  
   const [show, setShow] = useState();
   return(
      <div className='container pt-5'>
