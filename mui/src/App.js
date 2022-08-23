@@ -1,3 +1,4 @@
+import React from "react";
 import Feed from "./components/Feed";
 import RightBar from "./components/RightBar";
 import SideBar from "./components/SideBar";

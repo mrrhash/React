@@ -5,11 +5,10 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { useState } from 'react';
 
-const StyledToolBar = styled(Toolbar)({
-    display:"flex",
-    justifyContent:"space-between"
-
-})
+const StyledToolBar = styled(Toolbar)`
+    display: flex;
+    justifyContent: space-between;
+`;
 
 const Search = styled("div")(({theme})=>({
     backgroundColor:"white",
